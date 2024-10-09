@@ -1,8 +1,8 @@
 trigger:
 - main
 
-pool: dell-computer-jj
-
+pool: 
+  vmImage: ubuntu-latest
 variables:
   buildConfiguration: 'Release'
 
